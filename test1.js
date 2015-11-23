@@ -1,6 +1,6 @@
 // HELP: normalize height
 $.fn.nomalizeHeight = function (count) {
-	// Start testing
+	//New Branch changes
 	count = count || this.length;
 	if (this.length > 0) {
 		var max = 0;
@@ -15,6 +15,4 @@ $.fn.nomalizeHeight = function (count) {
 		this.not($group).nomalizeHeight(count);
 	}
 	return this;
-
-	//Changes in testing
 }
