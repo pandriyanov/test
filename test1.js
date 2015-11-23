@@ -15,4 +15,6 @@ $.fn.nomalizeHeight = function (count) {
 		this.not($group).nomalizeHeight(count);
 	}
 	return this;
+
+	//Changes in testing
 }
