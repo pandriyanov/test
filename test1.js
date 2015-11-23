@@ -15,5 +15,5 @@ $.fn.nomalizeHeight = function (count) {
 		this.not($group).nomalizeHeight(count);
 	}
 	return this;
-
+	// A new commit
 }
